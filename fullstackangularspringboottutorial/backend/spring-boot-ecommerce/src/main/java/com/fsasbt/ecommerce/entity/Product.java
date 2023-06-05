@@ -35,8 +35,8 @@ public class Product
       private String imageUrl;
     @Column(name="active")
       private  boolean active;
-    @Column(name="unitInStock")
-      private int unitInStock;
+    @Column(name="units_in_stock")
+      private int unitsInStock;
     @Column(name="date_Created")
     @CreationTimestamp
       private Date dateCreated;
